@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--  *****   Link To Custom CSS Style Sheet   *****  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--  *****   Link To Font Awsome Icons   *****  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+    <!--  *****   Link To Owl Carousel   *****  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>E-Learning Course</title>
+    <style>
+        /* Modal Styles */
+       /* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Adjust as needed */
+    max-width: 800px; /* Set a max width */
+    max-height: 80%; /* Adjust as needed */
+    display: flex;
+    justify-content: center; /* Center the video horizontally */
+    align-items: center; /* Center the video vertically */
+    position: relative;
+}
+
+#courseVideo {
+    width: 100%;
+    max-height: 100%; /* Ensure it fits within the modal */
+}
+
+.close {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+    </style>
+</head>
+<body>
+<!--   *** Website Container Starts ***   -->
+<div class="website-container">
+    
+<!--   *** Home Section Starts ***   -->
+<section class="home" id="home">
+    <!--   === Main Navbar Starts ===   -->
+    <nav class="main-navbar">
+        
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#courses">Courses</a></li>
+            
+        </ul>
+        <a href="register.html" class="get-started-btn-container">
+            <button class="get-started-btn btn">REGISTER/LOGIN</button>
+        </a>
+
+        <div class="menu-btn">
+            <span></span>
+        </div>
+    </nav>
+    <!--   === Main Navbar Ends ===   -->
+    <!--   === Banner Starts ===   -->
+    <div class="banner">
+        
+        <div class="banner-desc">
+            <h2>Start Learn Interesting Courses, Anywhere, Anytime Here</h2>
+            <p>Learn AIML Course</p>
+            <form class="search-bar">
+                <input type="search" placeholder="Search Your Course">
+                <i class="fa-solid fa-search"></i>
+            </form>
+        </div>
+
+        <div class="banner-img">
+            <div class="banner-img-container">
+                <img src="aiml image.jpg">
+
+                <div class="states">
+                    <div class="total-courses">
+                        <div class="icon">
+                            <i class="fa-solid fa-book"></i>
+                        </div>
+                        <div class="desc">
+                            <span>284+</span>
+                            <span>Total Courses</span>
+                        </div>
+                    </div>
+
+                    <div class="courses-ratings">
+                        <span>4.7<i class="fa-solid fa-star"></i></span>
+                        <span>Ratings (58k)</span>
+                    </div>
+                </div>
+
+                <div class="pattern">
+                    <img src="images/home/pattern.png">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!--   === Banner Ends ===   -->
+</section>
+<!--   *** Home Section Ends ***   -->
+<!--   *** Services Section Starts ***   -->
+<section class="services" id="services">
+    <!--   *** Services Header Starts ***   -->
+    <header class="section-header">
+        <h1>Why Choose Us</h1>
+        <p>Easy and Interesting courses available here</p>
+    </header>
+    <!--   *** Services Header Ends ***   -->
+    <!--   *** Services Contents Starts ***   -->
+    <div class="services-contents">
+
+        <div class="service-box">
+            <div class="service-icon">
+                <i class="fa-solid fa-calendar"></i>
+            </div>
+            <div class="service-desc">
+                <h2>Flexible Timing</h2>
+                <p>Learn at any time</p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <div class="service-desc">
+                <h2>Expert Teachers</h2>
+                <p>  </p>
+            </div>
+        </div>
+
+        <div class="service-box">
+            <div class="service-icon">
+                <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="service-desc">
+                <h2>24/7 Live Support</h2>
+                <p>  </p>
+            </div>
+        </div>
+
+    </div>
+    <!--   *** Services Contents Ends ***   -->
+</section>
+<!--   *** Services Section Ends ***   -->
+
+<!--   *** Courses Section Starts ***   -->
+<section class="courses" id="courses">
+    <!--   *** Courses Header Starts ***   -->
+    <header class="section-header">
+        <div class="header-text">
+            <h1>AIML COURSE</h1>
+            <p></p>
+        </div>
+        <button class="courses-btn btn">View All</button>
+    </header>
+    <!--   *** Courses Header Ends ***   -->
+    <!--   *** Courses Contents Starts ***   -->
+    <div class="course-contents">
+        
+        <!-- *** AIML Courses Section Starts *** -->
+<section class="aiml-courses" id="aiml-courses">
+    <!-- *** AIML Courses Header Starts *** -->
+    <header class="section-header">
+        <div class="header-text">
+            <h1>Start Learning your course.</h1>
+            <p>Explore our wide range of AIML course here.</p>
+        </div>
+        <button class="courses-btn btn" onclick="showCourses()">View All</button>
+    </header>
+    <!-- *** AIML Courses Header Ends *** -->
+    <!-- *** Courses Container Starts *** -->
+    <div id="courses-container"></div>
+    <!-- *** Courses Container Ends *** -->
+</section>
+<!-- *** AIML Courses Section Ends *** -->
+
+<!-- *** Modal for Video Playback Starts *** -->
+<!-- *** Modal for Video Playback Starts *** -->
+<div id="videoModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <video id="courseVideo" controls>
+            <source id="videoSource" src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<!-- *** Modal for Video Playback Ends *** -->
+<!-- *** Modal for Video Playback Ends *** -->
+
+<script>
+    const courses = [
+        
+        {
+            img: "aiml image.jpg",
+            category:"AI",
+            title: "Intro to AI",
+          
+
+            videoUrl: "Elearning Video ai.mp4" // URL to the course video
+        },
+        {
+            img: "ml image.png",
+       
+            title: "Intro to ML",
+            category:"ML",
+
+            videoUrl: "elearning ml.mp4" // URL to the course video
+        },
+        {
+            img: "ml images.jpeg",
+       
+            title: "Machine Learning",
+            category:"ML",
+
+            videoUrl: "ML_PT2.mp4" // URL to the course video
+        },
+
+        // Add more courses as needed
+    ];
+
+    function showCourses() {
+        const container = document.getElementById('courses-container');
+        container.innerHTML = ''; // Clear the container
+
+        courses.forEach(course => {
+            const courseCard = `
+                <div class="course-card" onclick="playVideo('${course.videoUrl}')">
+                    <img src="${course.img}">
+                    <div class="category">
+                        <div class="subject"><h3>${course.category}</h3></div>
+                       
+                    </div>
+                    <h2 class="course-title">${course.title}</h2>
+                    <div class="course-desc">
+                        
+                        
+                    </div>
+                    
+                </div>
+            `;
+            container.innerHTML += courseCard;
+        });
+    }
+
+    function playVideo(videoUrl) {
+        const modal = document.getElementById('videoModal');
+        const video = document.getElementById('courseVideo');
+        const source = document.getElementById('videoSource');
+        source.src = videoUrl;
+        video.load();
+        modal.style.display = 'block';
+    }
+
+    function closeModal() {
+        const modal = document.getElementById('videoModal');
+        const video = document.getElementById('courseVideo');
+        video.pause();
+        modal.style.display = 'none';
+    }
+</script>
+
+    </div>
+    <!--   *** Courses Contents Ends ***   -->
+<a href="quiz.html" class="get-started-btn-container">
+    <button class="get-started-btn btn">START QUIZ</button>
+</a>
+
+</section>
+<!--   *** Courses Section Ends ***   -->
+
+
+<!--   *** Teacher Section Starts ***   -->
+<!--   *** Teacher Section Ends ***   -->
+</section>
+<!--   *** Testimonials Section Ends ***   -->
+
+<!--   *** Footer Section Starts ***   -->
+<section class="footer" id="footer">
+    
+    <!--   === Footer Contents Starts ===   -->
+    <div class="footer-contents">
+        
+        
+
+        <div class="footer-col footer-col-2">
+            <div class="col-title">
+                <h3>Contact</h3>
+            </div>
+            <div class="col-contents">
+                <div class="contact-row">
+                    <span>Address</span>
+                    <span>Madurai</span>
+                </div>
+                <div class="contact-row">
+                    <span>Phone</span>
+                    <span>9994650511</span>
+                    <span>9994578589</span>
+                </div>
+                <div class="contact-row">
+                    <span>Email</span>
+                    <span>praveshini@gmail.com</span>
+                    <span>sowmiya@gmail.com</span>
+                    <span>shifana@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-col footer-col-3">
+            <div class="col-title">
+                <h3>Quick Links</h3>
+            </div>
+            <div class="col-contents">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Courses</a>
+            </div>
+        </div>
+
+        
+    </div>
+    <!--   === Footer Contents Ends ===   -->
+    
+
+</section>
+<!--   *** Footer Section Ends ***   -->
+
+
+</div>
+<!--   *** Website Container Ends ***   -->
+
+
+
+<!--   *** Link To JQuery ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+<!--   *** Link To Owl Carousel ***   -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<!--   *** Link To Curstom Script File ***   -->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
